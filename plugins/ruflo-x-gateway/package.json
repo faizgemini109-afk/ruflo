@@ -3,10 +3,10 @@
   "version": "0.9.1",
   "private": true,
   "type": "module",
-  "description": "x.ruv.io gateway — MCP server for ruflo swarm federation + claims over a signed, membership-gated Nostr relay. Exposes /mcp tools and ruv:// resources.",
+  "description": "x.ruv.io gateway \u2014 MCP server for ruflo swarm federation + claims over a signed, membership-gated Nostr relay. Exposes /mcp tools and ruv:// resources.",
   "main": "src/server.mjs",
   "scripts": {
-    "start": "node src/server.mjs",
+    "start": "node init && node src/server.mjs",
     "test": "node --test test/*.test.mjs"
   },
   "dependencies": {

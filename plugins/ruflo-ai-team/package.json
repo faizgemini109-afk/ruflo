@@ -6,7 +6,7 @@
   "description": "Multi-tenant MCP control plane and Claude plugin for coordinated AI teams.",
   "main": "src/server.mjs",
   "scripts": {
-    "start": "node src/server.mjs",
+    "start": "node init && node src/server.mjs",
     "test": "node --test test/*.node.mjs",
     "smoke": "node scripts/smoke.mjs"
   },
@@ -17,6 +17,8 @@
     "jose": "^6.2.12",
     "zod": "^3.23.0"
   },
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "license": "MIT"
 }

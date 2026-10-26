@@ -25,7 +25,7 @@
   ],
   "scripts": {
     "test": "vitest run",
-    "build": "tsc"
+    "build": "node init && tsc"
   },
   "dependencies": {
     "@types/ws": "^8.5.10",

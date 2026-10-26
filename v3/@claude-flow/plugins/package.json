@@ -32,7 +32,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "node init && tsc -p tsconfig.json",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint src --ext .ts",
